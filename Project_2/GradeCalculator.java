@@ -29,7 +29,7 @@ public class GradeCalculator {
         for(int i = 0; i < 5; i++) {
             String subject = getSubject(i);
 
-            marks[i] = getValidMarks(subject, sc, 0, MAX_MARKS); 
+            marks[i] = getValidMarks(subject, sc, 0, MAX_MARKS);  //adding all marks to an array
         }
 
         int totalMarks = calculateTotalMarks(marks);
