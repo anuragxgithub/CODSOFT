@@ -11,6 +11,9 @@ public class ATM {
     public static void main(String[] args) {
         BankAccount m1 = new BankAccount(2000);   //instantiating ATM class
         Scanner sc = new Scanner(System.in);
+        System.out.println();
+        System.out.println("<<<----WELCOME TO ATM MACHINE---->>>");
+        System.out.println();
         m1.verifyPin(0, sc);
         System.out.println();
         
